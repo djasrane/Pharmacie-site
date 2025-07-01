@@ -51,6 +51,6 @@ Pharmacie-site/
 │   └── logo.png
 └── README.md
 
-![Aperçu du site](./pharmacie-image.png)
+![Aperçu du site](./images/pharmacie-image.png)
 
 
