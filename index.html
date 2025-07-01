@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pharmacie SantéTech</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Pharmacie SantéPlus</h1>
+    <nav>
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#produits">Produits</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="accueil" class="hero">
+  <div class="slogan-logo">
+       <img src="image/pharmacie.png" alt="Logo pharmacie" class="logo" />
+       <div class="texte-slogan">
+         <h1>Bienvenue à la Pharmacie SantéTech</h1>
+       <h2>Votre santé, notre priorité</h2>
+       <p>Des médicaments de qualité et des conseils professionnels.</p>
+    </div>
+  </div>
+</section>
+
+  <section id="apropos">
+    <h2>À propos de nous</h2>
+    <p>La Pharmacie SantéTech vous accompagne depuis 20 ans à Abéché avec des produits fiables et un personnel attentionné.</p>
+  </section>
+
+  <section id="services">
+    <h2>Nos Services</h2>
+    <ul>
+      <li>Vente de médicaments</li>
+      <li>Conseils pharmaceutiques</li>
+      <li>Vaccination</li>
+      <li>Suivi de traitement</li>
+    </ul>
+  </section>
+
+  <section id="produits">
+    <h2>Produits en Vitrine</h2>
+    <div class="produit">
+      <h3>Doliprane 500mg</h3>
+      <p>Antalgique et antipyrétique</p>
+    </div>
+    <div class="produit">
+      <h3>Vitamine C</h3>
+      <p>Renforce l’immunité</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contactez-nous</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Entrz votre nom" required />
+      <input type="email" placeholder="Entrez votre mail" required />
+      <textarea placeholder="Bienvenue sur la note de SantéTech...! Entrez votre message"></textarea>
+    </form>
+    <p>Ou contactez-nous directement sur WhatsApp :</p>
+    <form id="whatsappForm">
+      <input type="text" id="note" placeholder="Entrez votre message ici" required />
+<button onclick="envoyerWhatsApp()">Envoyer</button>
+    </form>
+    <p>📍 Abéché, Tchad – 📞 +235 60 72 91 12;
+        +235 62 85 09 31
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Pharmacie SantéTech à vos services</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
